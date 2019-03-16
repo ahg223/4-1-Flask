@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/Users/hyunggeunahn/Desktop/MyGit/Flask/flask/lib/node_modules
+export NPM_CONFIG_PREFIX=/Users/hyunggeunahn/Desktop/MyGit/Flask/flask
+export npm_config_prefix=/Users/hyunggeunahn/Desktop/MyGit/Flask/flask
+exec /Users/hyunggeunahn/Desktop/MyGit/Flask/flask/bin/../bin/node "$@"
