@@ -78,7 +78,7 @@ def login():
 
 
     source = driver.page_source
-    time.sleep(30)
+    time.sleep(25)
     driver.get('https://cloudcam.skbroadband.com/do/front/mypage/serviceDownloadList')
     #time.sleep(40)
     driver.find_element_by_xpath('//*[@id="section"]/div/div/div/div/table/tbody/tr[1]/td[5]/div/button').send_keys(Keys.ENTER)
@@ -97,9 +97,9 @@ def login():
     #driver.get('http://172.30.1.20:8080')
     #driver.find_element_by_xpath('//*[@id="section"]/div/div/div/div/table/tbody/tr[2]/td/table/tbody/tr/td[3]/div/input').send_keys(Keys.ENTER)
 
-    driver.get('http://172.20.10.6:8080')
+    driver.get('http://115.145.75.178:8080')
 
-    driver.find_element_by_name('password').send_keys('j6y25')
+    driver.find_element_by_name('password').send_keys('9arim')
     driver.find_element_by_xpath('//*[@id="login"]/div/span/a').send_keys(Keys.ENTER)
     time.sleep(3)
     driver.find_element_by_xpath('//*[@id="file_btn_menu"]/button[1]').send_keys(Keys.ENTER)
